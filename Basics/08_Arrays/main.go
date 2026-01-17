@@ -15,5 +15,8 @@ func main(){
 	//Array literal
 	marks :=[3]int{2,4,6}  // ---> Second method
 	fmt.Println(len(marks))
+
+	name:=[...]string{"Arsha","vishnu"}
+	fmt.Println(name)
 }
 // output = [10 20 0 30 0]
