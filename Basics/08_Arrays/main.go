@@ -18,5 +18,14 @@ func main(){
 
 	name:=[...]string{"Arsha","vishnu"}
 	fmt.Println(name)
+
+	var arr2 [2][2]int
+	arr2[0][0]=5
+	arr2[0][1]=1
+	fmt.Println(arr2)
+	//or
+	var arr3 [2][2]int
+	arr3 =[2][2]int{{1,2},{3,4}}
+	fmt.Println(arr3)
 }
 // output = [10 20 0 30 0]
