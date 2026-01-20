@@ -8,7 +8,7 @@ func main(){
 m:=make(map[string]string)
 
 //setting elements
-m["name"]="golangs"
+m["name"]="golang"
 m["area"]="backend"
 //geting an element
 fmt.Println(m["name"],m["area"])
