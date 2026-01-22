@@ -20,6 +20,6 @@ delete(m,"area")
 fmt.Println(m)
 
 // clear map
-// clear(m)
+// clear(m) ;
 // fmt.Println(m)
 }
